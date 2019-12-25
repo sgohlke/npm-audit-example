@@ -1,0 +1,27 @@
+name: Run audit example
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    name: Install
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: npm install
+          uses: actions/npm@master
+          with:
+            args: install
+      - name: npm dep tree
+          uses: actions/npm@master
+          with:
+            args: run depTree
+      - name: npm outdateed
+          uses: actions/npm@master
+          with:
+            args: run updates
+      - name: npm audit
+          uses: actions/npm@master
+          with:
+            args: run audit
