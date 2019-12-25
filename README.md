@@ -1,4 +1,7 @@
 # npm-audit-example
+https://github.com/sgohlke/npm-audit-example/workflows/Run_audit_example/badge.svg
+
+
 Example of using npm audit
 
 ## Precondition
