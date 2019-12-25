@@ -1,5 +1,5 @@
 # npm-audit-example
-https://github.com/sgohlke/npm-audit-example/workflows/Run%20audit%20example/badge.svg
+![Pipeline status](https://github.com/sgohlke/npm-audit-example/workflows/Run%20audit%20example/badge.svg)
 
 Example of using npm audit
 
