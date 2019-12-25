@@ -10,18 +10,18 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: npm install
-          uses: actions/npm@master
-          with:
-            args: install
+        uses: actions/npm@master
+        with:
+          args: install
       - name: npm dep tree
-          uses: actions/npm@master
-          with:
-            args: run depTree
+        uses: actions/npm@master
+        with:
+          args: run depTree
       - name: npm outdateed
-          uses: actions/npm@master
-          with:
-            args: run updates
+        uses: actions/npm@master
+        with:
+          args: run updates
       - name: npm audit
-          uses: actions/npm@master
-          with:
-            args: run audit
+        uses: actions/npm@master
+        with:
+          args: run audit
