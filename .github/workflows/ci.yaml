@@ -17,3 +17,4 @@ jobs:
       - run: npm run updates
         continue-on-error: true
       - run: npm run audit
+        continue-on-error: true
