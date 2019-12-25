@@ -1,6 +1,5 @@
 # npm-audit-example
-https://github.com/sgohlke/npm-audit-example/workflows/Run_audit_example/badge.svg
-
+https://github.com/sgohlke/npm-audit-example/workflows/Run%20audit%20example/badge.svg
 
 Example of using npm audit
 
