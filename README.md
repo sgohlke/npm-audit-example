@@ -1,6 +1,8 @@
 # npm-audit-example
 ![Pipeline status](https://github.com/sgohlke/npm-audit-example/workflows/Run%20audit%20example/badge.svg)
 
+> **Note**: This is a playground project project and may not use up-to-date depenencies!
+
 Example of using npm audit
 
 ## Precondition
